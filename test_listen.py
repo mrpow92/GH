@@ -1,11 +1,9 @@
-testList = ["haslsad","sad"]
+first = [[],[]]
+second = [[1,1]]
+zipped = zip(first, second)
+print(len(first))
 
+print(type(first[0]))
 
-def testfunction(myFunction):
-    x=1
-    while x<10:
-        testList.append("TEST")
-        x+=1
-
-testfunction("irgendwas")
-print(testList)
+for x, y in zipped:
+    print(x,y)
